@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable and Datatypes</title>
+</head>
+<body>
+<h2 style="color:blue;text-align: center;">WHAT I'VE LEARNT SO FAR</h2>
+<p style="color:brown;">Variable</p>
+A variable is a reserve memory in a computer that is used to store value
+<p style="color:brown;">Variable declaration</p>
+<p>let firstName</p>
+<P>var lastName</P>
+<P>const means Constant</P>
+<P>const p;</P>
+<P>p=3.142 </P>
+The equals to sign is an assignment operator,
+<h3>Declaration and Assignment</h3>
+let lastName="folarin"
+<h2 style="text-align: center; color: blueviolet;">Attributes of variables</h2>
+<li>Variable must not start with a number </li>
+<li>It must not contain special character except underscore or dollar sign ($)</li>
+<li>Variable is case sensitive</li>
+<li>We must not declare a reserved keyword</li>
+<p><h2  style="color: brown;">Data Types</h2></p>
+STRING
+<p id="string"></p>
+NUMBER
+<p id="number"></p>
+UNDEFINED
+<p id="undefined"></p>
+OBJECTS
+<p id="objects"></p>
+BOOLEANS
+<p id="booleans"></p>
+
+<script>
+    var firstName = "Idris"
+    var lastName = "Folarin"
+    document.getElementById('string').innerHTML= firstName + " " + lastName
+   
+    document.getElementById('number').innerHTML= 10, 0.02, 200
+   
+    var door;
+    document.getElementById('undefined').innerHTML= door + " " + typeof door;
+
+    let entity = {firstName : "John", lastName  : "Doe", age: 50,};
+    document.getElementById('objects').innerHTML= entity.firstName + " is " + entity.age + " years old ";
+
+    let x = 3;
+    let y = 7;
+    let z = 3;
+    document.getElementById("booleans").innerHTML = (y == z) + "<br>" + (x == z);
+   
+</script>
+<script src="script.js"></script>
+</body>
+</html>
